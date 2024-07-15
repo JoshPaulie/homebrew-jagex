@@ -3,6 +3,7 @@ class JagexLauncher < Formula
   homepage "https://www.jagex.com"
   url "https://cdn.jagex.com/Jagex%20Launcher%20Installer.dmg"
   sha256 "fff5b5f4727fc5307f756c8bfa8b0831910cbefc960888d9bc94dabbddc3db56" 
+  version "1.0.0" 
 
   def install
     system "hdiutil", "attach", "Jagex%20Launcher%20Installer.dmg"
